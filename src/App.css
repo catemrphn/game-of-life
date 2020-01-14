@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+.gamefield__container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.button__container {
+  display: flex;
+
+}
+
+.button {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+  margin-right: 15px;
+  border: 1px solid #545454;
+  background: #000000;
+  color: #fff;
+}
+
+.speedListener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: 500;
+}
